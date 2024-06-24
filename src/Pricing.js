@@ -9,7 +9,7 @@ import { CheckboxIcon } from './Icon';
 
  
 export const ListItem = (props: StackProps) => {
-    sr
+    
     return (
              <HStack>
              <Icons as={CheckIcon}  w={'22'} h={"22px"} {...rest}/>
