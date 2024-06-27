@@ -9,8 +9,8 @@ Text,
 
 const Header = () => {
     return (
+        <Box pb={'112px'} as='section'>
         <Box 
-        as='section'
         color={'#F7FAFC'} 
         bg={'#6B46C1'} 
         pt={'50px'} 
@@ -25,6 +25,7 @@ const Header = () => {
                 Plans that are carefully crafted to suit your business
             </Text>
 
+        </Box>
         </Box>
        
     );

@@ -8,21 +8,22 @@ Icon,
 Stack,
 Button } from "@chakra-ui/react";
 import React from "react";
-import CheckIcon from "./icon"; // Correct path and default import
+import CheckIcon from "./icon"; 
 
-export const ListItem = (props) => { // Remove StackProps since it's not imported or needed
-  const { children, ...rest } = props; // Fix typo: childern to children
+
+export const ListItem = (props) => { 
+  const { children, ...rest } = props;
   return (
     <HStack as="li" spacing="20px" {...rest}>
       <Icon as={CheckIcon} w="22" h="22px" />
-      <Text>{children}</Text> {/* Fix typo: Children to children */}
+      <Text>{children}</Text> 
     </HStack>
   );
 };
 
 const Pricing = () => {
   return (
-    <Box maxW={'994px'} margin={'auto'}>
+    <Box maxW={'994px'} margin={'auto'} mt={'-206'} rounded={'40px'} overflow={'hidden'}>
       <Flex>
         <Box 
         bg={'#F0EAFB'} 
@@ -47,7 +48,7 @@ const Pricing = () => {
             Get Started!
           </Button>
         </Box>
-        <Box p={'30px'} fontSize={''}>
+        <Box p={'30px'} fontSize={'180x'} bg={'white'}>
           <Text>
           Access these features when you get the pricing for your business
           </Text>
