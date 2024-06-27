@@ -23,7 +23,7 @@ export const ListItem = (props) => {
 
 const Pricing = () => {
   return (
-    <Box maxW={'994px'} margin={'auto'} mt={'-206'} rounded={'40px'} overflow={'hidden'}>
+    <Box maxW={'994px'} margin={'auto'} mt={'-206'} rounded={'40px'} overflow={'hidden'} boxShadow={' 0 16px 16px rgba(0, 0, 0, 0.1)'}>
       <Flex>
         <Box 
         bg={'#F0EAFB'} 
@@ -54,9 +54,9 @@ const Pricing = () => {
           </Text>
           <Stack as={'ul'} spacing={'1px'} pt={'15px'}>
               <ListItem>International calling and messain API</ListItem>
-              <ListItem>International calling and messain API</ListItem>
-              <ListItem>International calling and messain API</ListItem>
-              <ListItem>International calling and messain API</ListItem>
+              <ListItem>Lorem ipsum dolor, sit amet consectetu</ListItem>
+              <ListItem>Lorem, Simbi ipsum dolor sit amet consectetur </ListItem>
+              <ListItem>Lorem ipsum dolor sit janito amet consectetur. jith</ListItem>
           </Stack>
         </Box>
       </Flex>
